@@ -1,0 +1,11 @@
+{
+  "apiKey": "API_KEY",
+  "authDomain": "projectId.firebaseapp.com",
+  "databaseURL": "https://projectId.firebaseio.com",
+  "projectId": "projectId",
+  "storageBucket": "projectId.appspot.com",
+  "messagingSenderId": "0000000000",
+  "appId": "APP_ID",
+  "measurementId": "G-XXXXXXXXXXX",
+  "databaseURL": "https://projectId.firebasedatabase.app/"
+}
