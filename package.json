@@ -1,0 +1,19 @@
+{
+  "name": "fuzzingfire",
+  "version": "1.0.0",
+  "description": "Firestore Collection Fuzzer (Web SDK version)",
+  "main": "fuzzingfire-web.js",
+  "type": "module",
+  "author": "z3u501",
+  "license": "MIT",
+  "scripts": {
+    "start": "node fuzzingfire-web.js",
+    "scan": "node fuzzingfire-web.js -c firebaseConfig.json -w collections.txt -t 10 -o output.json"
+  },
+  "keywords": ["firestore", "fuzzer", "firebase", "security", "cli", "pentest"],
+  "dependencies": {
+    "commander": "^14.0.0",
+    "firebase": "^11.9.1",
+    "p-limit": "^3.1.0"
+  }
+}
